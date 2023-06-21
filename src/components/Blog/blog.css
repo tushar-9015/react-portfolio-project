@@ -1,0 +1,41 @@
+.blogs {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .blogs-texts {
+    width: 65%;
+  }
+  
+  .blogs-title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .blogs-desc {
+    margin: 20px 0px;
+  }
+
+  .blogs-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .blogs {
+      padding: 10px;
+    }
+  
+    .blogs-texts {
+      width: 100%;
+    }
+  
+    .blogs-desc {
+      display: none;
+    }
+  }
