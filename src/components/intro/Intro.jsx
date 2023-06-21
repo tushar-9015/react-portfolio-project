@@ -23,11 +23,11 @@ const Intro = () => {
           </p>
         </div>
         <svg
-          width="75"
-          height="75"
+          width="85"
+          height="85"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="black"
+          stroke="#539165"
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >

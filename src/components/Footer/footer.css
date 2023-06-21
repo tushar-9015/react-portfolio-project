@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: #539165;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+}
+
+.links a {
+    margin-right: 0.8rem;
+    font-size: 1.6em;
+    color: #3F497F;
+}

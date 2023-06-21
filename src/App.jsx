@@ -5,6 +5,7 @@ import ProductList from "./components/ProductList/ProductList";
 import Toggle from "./components/Toggle/Toggle";
 import { ThemeContext } from "./context";
 import Blog from "./components/Blog/Blog";
+import Footer from "./components/Footer/Footer";
 
 
 const App = () => {
@@ -13,8 +14,8 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
+        backgroundColor: darkMode ? "#191A19" : "#FFF4F4",
+        color: darkMode && "#FFF4F4",
       }}
     >
       <Toggle />
@@ -22,6 +23,7 @@ const App = () => {
       <About />
       <ProductList />
       <Blog />
+      <Footer />
     </div>
   );
 };
