@@ -1,16 +1,18 @@
 import blog1 from "./img/blog1.png";
 import blog2 from "./img/blog2.png";
 import blog3 from "./img/blog3.png";
+import dashboard from "./img/dashboard.png";
+import eCommerce from "./img/e-commerce.png";
 
 export const products = [
     {
       id: 1,
-      img: "",
+      img: dashboard,
       link: "http://lama.dev",
     },
     {
       id: 2,
-      img: "",
+      img: eCommerce,
       link: "http://lama.dev",
     },
     {
