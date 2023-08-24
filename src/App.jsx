@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import About from "./components/About/About";
-import Intro from "./components/intro/Intro";
+import Intro from "./components/Intro/Intro";
 import ProductList from "./components/ProductList/ProductList";
 import Toggle from "./components/Toggle/Toggle";
 import { ThemeContext } from "./context";
