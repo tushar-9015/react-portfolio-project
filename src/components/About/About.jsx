@@ -20,10 +20,7 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        I am a detailed oriented frontend web developer with a zeal to build user friendly, responsive websites. I'm also a designer, a blogger, and a naturally curious multitasker. 
         </p>
       </div>
     </div>
