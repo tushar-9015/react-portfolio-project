@@ -1,5 +1,8 @@
 import React from 'react'
 import './introduction.css';
+import profile from "../../img/profile2.png";
+
+
 
 const Introduction = () => {
   return (
@@ -82,7 +85,7 @@ const Introduction = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-            <img src="https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" className='i-img' />
+            <img src={profile} alt="" className='i-img' />
       </div>
     </div>
   )

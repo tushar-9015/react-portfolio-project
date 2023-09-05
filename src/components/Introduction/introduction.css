@@ -75,11 +75,11 @@
 
   
   .i-img {
-    width: 90%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center;
     position: absolute;
-    top: 0;
   }
   
   .i-bg {
@@ -88,12 +88,13 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     .i {
+      display: flex;
       flex-direction: column;
     }
   

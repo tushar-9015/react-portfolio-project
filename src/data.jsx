@@ -2,38 +2,43 @@ import blog1 from "./img/blog1.png";
 import blog2 from "./img/blog2.png";
 import blog3 from "./img/blog3.png";
 import dashboard from "./img/dashboard.png";
-import eCommerce from "./img/e-commerce.png";
+import eComm from "./img/eComm.png";
+import sidcup from "./img/sidcup.png";
+import fitness from "./img/fitness.png";
+import todo from "./img/todolist.png";
+import youtube from "./img/youtube.png"
+
 
 export const products = [
     {
       id: 1,
       img: dashboard,
-      link: "http://lama.dev",
+      link: "https://joshi-admin-dashboard.netlify.app/login",
     },
     {
       id: 2,
-      img: eCommerce,
-      link: "http://lama.dev",
+      img: eComm,
+      link: "https://chothing-store-frontend.vercel.app/",
     },
     {
       id: 3,
-      img: "",
-      link: "http://lama.dev",
+      img: sidcup,
+      link: "https://sidcup-landingpage.netlify.app/",
     },
     {
       id: 4,
-      img: "",
-      link: "http://lama.dev",
+      img: youtube,
+      link: "https://tushar-youtube-clone.netlify.app/",
     },
     {
       id: 5,
-      img: "",
-      link: "http://lama.dev",
+      img: fitness,
+      link: "https://fitnessfresh.netlify.app/",
     },
     {
       id: 6,
-      img: "",
-      link: "http://lama.dev",
+      img: todo,
+      link: "https://todolist-nu-azure.vercel.app/",
     },
   ];
 
