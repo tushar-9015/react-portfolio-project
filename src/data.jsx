@@ -13,7 +13,7 @@ export const products = [
     {
       id: 1,
       img: dashboard,
-      link: "https://joshi-admin-dashboard.netlify.app/login",
+      link: "https://joshi-admin-dashboard.netlify.app",
     },
     {
       id: 2,
@@ -56,6 +56,6 @@ export const products = [
     {
       id: 3,
       img: blog3,
-      link: "http://lama.devhttps://tushar9015.hashnode.dev/getting-familiar-with-closure-in-javascript",
+      link: "https://tushar9015.hashnode.dev/getting-familiar-with-closure-in-javascript",
     },
   ]
