@@ -6,7 +6,7 @@ import eComm from "./img/eComm.png";
 import sidcup from "./img/sidcup.png";
 import fitness from "./img/fitness.png";
 import todo from "./img/todolist.png";
-import youtube from "./img/youtube.png"
+import promptverse from './img/promptverse.png'
 
 
 export const products = [
@@ -23,8 +23,8 @@ export const products = [
     },
     {
       id: 3,
-      img: youtube,
-      link: "https://tushar-youtube-clone.netlify.app/",
+      img: promptverse,
+      link: "https://promptverse-pink.vercel.app/",
     },
     {
       id: 4,
